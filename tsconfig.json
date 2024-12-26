@@ -1,16 +1,14 @@
 {
-    "compilerOptions": {
-      "target": "ES2020",                  
-      "module": "NodeNext",               
-      "moduleResolution": "NodeNext",   
-      "strict": true,                     
-      "esModuleInterop": true,            
-      "skipLibCheck": true,               
-      "outDir": "./dist",                
-      "rootDir": "./src",                 
-      "resolveJsonModule": true           
-    },
-    "include": ["src/**/*"],              
-    "exclude": ["node_modules"]          
-  }
-  
+  "compilerOptions": {
+    "outDir": "./dist",  // Output folder for compiled files
+    "rootDir": "./src",  // Root directory for source files
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

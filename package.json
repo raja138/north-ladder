@@ -4,9 +4,9 @@
     "description": "A basic Event Management Platform implemented with Node.js and TypeScript.",
     "main": "dist/server.js",
     "scripts": {
-      "start": "node dist/server.js",
-      "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-      "build": "tsc"
+      "build": "tsc",  
+      "start": "node dist/server.js", 
+      "dev": "ts-node-dev src/server.ts" 
     },
     "keywords": [
       "Node.js",
